@@ -36,8 +36,8 @@
 Для запуска нужен установленный **Python**. В терминале, находясь в папке с файлами проекта, выполните:
 
 ```bash
-python -m pip install marimo numpy pandas scipy plotly
-python -m marimo run Lab01_KTvD_MARIMO_.py
+cd "$env:USERPROFILE\Downloads"
+python -m marimo run ".\Lab01_KTvD_MARIMO_.py"
 ```
 
 После запуска откройте адрес, который появится в терминале (обычно `http://localhost:2718`). Приложение позволяет менять параметры исследования и сразу видеть обновлённые результаты. Для остановки сервера нажмите `Ctrl + C` в терминале.
